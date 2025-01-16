@@ -15,12 +15,12 @@ body {
     position: relative;
     color: black;
     width: 100%;
+    padding-top: 10px;
 }
 
 .Logo {
     width: 60px;
     height: 60px;
-    background-color: #fff;
     border-radius: 50%;
     border: 5px solid transparent;
     background-clip: padding-box;
@@ -29,6 +29,7 @@ body {
     top: 5px;
     left: 20px;
     background: linear-gradient(to right, #ffffff, #ffffff) border-box,
-        url('img/FerroFy_Main') no-repeat center center / cover;
+        url('IMG/FerroFy_Main.png') no-repeat center center / cover;
     box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, 0.75);
+    object-fit: cover;
 }
